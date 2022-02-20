@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+        <LangVersion>latestmajor</LangVersion>
+        <Company>Expensely</Company>
+        <Author>Gavan Lamb</Author>
+        <Authors>Gavan Lamb</Authors>
+        <Description>Setup and add Swagger</Description>
+        <PackageId>Expensely.Swagger</PackageId>
+        <RootNamespace>Expensely.Swagger</RootNamespace>
+        <PackageProjectUrl>https://github.com/expensely/library-swagger</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/expensely/library-swagger/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/expensely/library-swagger</RepositoryUrl>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+
+        <AssemblyVersion>0.0.1</AssemblyVersion>
+        <FileVersion>0.0.1</FileVersion>
+        <PackageVersion>0.0.1</PackageVersion>
+        <Version>0.0.1</Version>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.2" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+</Project>
