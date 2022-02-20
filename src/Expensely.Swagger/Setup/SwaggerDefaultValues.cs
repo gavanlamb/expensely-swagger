@@ -4,7 +4,7 @@ using Microsoft.OpenApi.Any;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Time.Api.Setup;
+namespace Expensely.Swagger.Setup;
 
 public class SwaggerDefaultValues : IOperationFilter
 {

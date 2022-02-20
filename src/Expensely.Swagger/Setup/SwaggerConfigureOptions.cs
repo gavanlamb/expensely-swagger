@@ -8,7 +8,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace Time.Api.Setup;
+namespace Expensely.Swagger.Setup;
 
 public class SwaggerConfigureOptions : IConfigureOptions<SwaggerGenOptions>
 {
