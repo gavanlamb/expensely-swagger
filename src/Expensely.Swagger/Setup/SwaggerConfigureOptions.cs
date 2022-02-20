@@ -24,10 +24,10 @@ public class SwaggerConfigureOptions : IConfigureOptions<SwaggerGenOptions>
                 desc.GroupName, 
                 new OpenApiInfo
                 {
-                    Title = "Time API", 
+                    Title = Assembly.GetEntryAssembly()?.GetName().Name, 
                     Version = $"Version {desc.ApiVersion}",
                 });
-            var xmlPath = Path.Combine(AppContext.BaseDirectory, $"{Assembly.GetExecutingAssembly().GetName().Name}.xml");
+            var xmlPath = Path.Combine(AppContext.BaseDirectory, $"{Assembly.GetEntryAssembly()?.GetName().Name}.xml");
             options.IncludeXmlComments(xmlPath);
             options.CustomSchemaIds(x => x.FullName);
         }
