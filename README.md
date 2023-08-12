@@ -1,4 +1,4 @@
-# Expensely.Swagger
+# Swagger
 
 [![Build Status](https://dev.azure.com/expensely-au/Expensely/_apis/build/status/Libraries/Swagger/Release?branchName=main)](https://dev.azure.com/expensely-au/Expensely/_build/latest?definitionId=62&branchName=main)
 
